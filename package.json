@@ -4,7 +4,9 @@
   "description": "",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "pnpm dlx tsx watch ./src/index.ts"
+    "preinstall": "npx only-allow pnpm",
+    "start": "pnpm dlx tsx watch ./src/index.ts",
+    "r": "pnpm dlx tsx ./scripts/index.ts"
   },
   "keywords": [],
   "author": "",
