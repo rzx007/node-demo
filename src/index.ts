@@ -1,3 +1,11 @@
+/*
+ * @Author: 阮志雄
+ * @Date: 2022-12-18 21:38:53
+ * @LastEditTime: 2023-01-04 21:01:32
+ * @LastEditors: 阮志雄
+ * @Description: In User Settings Edit
+ * @FilePath: \node-examples\src\index.ts
+ */
 import cluster from 'node:cluster';
 import { cpus } from 'node:os';
 import process from 'node:process';
