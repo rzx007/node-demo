@@ -7,9 +7,13 @@ specifiers:
   eslint: ^8.30.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
+  images: ^3.2.4
   prettier: ^2.8.1
   tsx: ^3.12.1
   typescript: ^4.9.4
+
+dependencies:
+  images: 3.2.4
 
 devDependencies:
   '@types/node': 18.11.17
@@ -898,6 +902,11 @@ packages:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
     engines: {node: '>= 4'}
     dev: true
+
+  /images/3.2.4:
+    resolution: {integrity: sha512-Uq61/Q8XixCRyKvws7tPwboK0O70Dbr4kMQZHw2dqdEhnU6TpaGwyMg0vzQ4aaGtrO9N3etq46XwF7hxbqp8ug==}
+    requiresBuild: true
+    dev: false
 
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
