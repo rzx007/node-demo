@@ -5,6 +5,7 @@
   "main": "./src/index.ts",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "typecheck": "pnpm dlx tsc --noEmit",
     "start": "pnpm dlx tsx watch ./src/index.ts",
     "r": "pnpm dlx tsx ./scripts/index.ts"
   },
@@ -13,6 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.17",
+    "@types/vfile": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.47.0",
     "eslint": "^8.30.0",
@@ -23,6 +25,8 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "images": "^3.2.4"
+    "images": "^3.2.4",
+    "reflect-metadata": "^0.1.13",
+    "vfile": "^5.3.6"
   }
 }
