@@ -12,6 +12,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
   plop: ^4.0.1
+  images: ^3.2.4
   prettier: ^2.8.1
   reflect-metadata: ^0.1.13
   tsup: ^8.0.1
@@ -23,6 +24,7 @@ dependencies:
   cac: 6.7.14
   consola: 3.2.3
   plop: 4.0.1
+  images: 3.2.4
   reflect-metadata: 0.1.13
   tsup: 8.0.1_typescript@4.9.4
   vfile: 5.3.6
@@ -2025,6 +2027,11 @@ packages:
   /ignore/5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
     engines: {node: '>= 4'}
+
+  /images/3.2.4:
+    resolution: {integrity: sha512-Uq61/Q8XixCRyKvws7tPwboK0O70Dbr4kMQZHw2dqdEhnU6TpaGwyMg0vzQ4aaGtrO9N3etq46XwF7hxbqp8ug==}
+    requiresBuild: true
+    dev: false
 
   /import-fresh/3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
