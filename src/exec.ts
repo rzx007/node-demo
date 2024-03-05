@@ -17,4 +17,4 @@ export const downloadFileWget = async (file_url: string) => {
   console.log(stdout);
   console.log(file_name + ' downloaded to ' + '/');
 };
-// downloadFileWget('https://github.com/rzx007/web-examples.git');
+downloadFileWget('http://10.172.246.235/low-code/low-code-plantform.git');
