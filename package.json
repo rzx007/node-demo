@@ -32,8 +32,10 @@
   },
   "dependencies": {
     "cac": "^6.7.14",
+    "citty": "^0.1.6",
     "consola": "^3.2.3",
     "images": "^3.2.4",
+    "nano-spawn": "^0.1.0",
     "openai": "^4.28.4",
     "plop": "^4.0.1",
     "reflect-metadata": "^0.1.14",
